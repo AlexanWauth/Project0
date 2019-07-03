@@ -1,0 +1,46 @@
+
+  @media screen and (max-width: 1000px){
+    #divtitlephoto{
+      color: DarkMagenta;
+    }
+    #divtable{
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 1000px){
+    #divtitlephoto{
+      color: Darkgreen;
+    }
+    #divtable{
+      width: 1000px;
+      margin-left: 10%
+    }
+  }
+  @media screen and (min-width: 1500px){
+    #divtitlephoto{
+      color: blue;
+    }
+  }
+
+#divlist{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.redborder{
+    border: 2px solid Red;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 20%;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+td {
+    border: 1px solid black;
+    background-color: yellow;
+}
+th {
+    border: 2px solid red;
+    background-color: orange;
+}
