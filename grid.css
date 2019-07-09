@@ -8,7 +8,36 @@ img.imgtab {
 }
 .famdragdiv p {
   color: Darkgreen;
-  font-size: 10;
+  font-size: 8;
+}
+
+.ToC {
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bolder;
+  border: 2px dotted red;
+  padding: 10px;
+  margin: 10px;
+}
+
+#ToC1 {
+  font-family: Arial;
+  color: Red;
+}
+
+#ToC2 {
+  font-family: TimesNewRoman;
+  color: yellow;
+}
+
+#ToC3 {
+  font-family: fantasy;
+  color: green;
+}
+
+#ToC4 {
+  font-family: monospace;
+  color: indigo;
 }
 
 /*# sourceMappingURL=grid.css.map */
