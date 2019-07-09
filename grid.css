@@ -1,0 +1,14 @@
+img.imgtab {
+  max-height: 100px;
+}
+
+.famdragdiv {
+  max-width: 110px;
+  max-height: 110px;
+}
+.famdragdiv p {
+  color: Darkgreen;
+  font-size: 10;
+}
+
+/*# sourceMappingURL=grid.css.map */
