@@ -1,12 +1,16 @@
-  @media screen and (max-width: 1000px){
+  @media screen and (min-width: 1px) and (max-width: 999px){
     #divtitlephoto{
       color: DarkMagenta;
     }
     #divtable{
       width: 100%;
     }
+    .screensizealert::after{
+      content: "less than 1000px.";
+      color: DarkMagenta;
+    }
   }
-  @media screen and (min-width: 1000px){
+  @media screen and (min-width: 1000px) and (max-width: 1500px){
     #divtitlephoto{
       color: Darkgreen;
     }
@@ -14,13 +18,29 @@
       width: 1000px;
       margin-left: 10%
     }
+    .screensizealert::after{
+      Content: "more than 1000px and less than 1500px.";
+      color: Darkgreen;
+    }
   }
   @media screen and (min-width: 1500px){
     #divtitlephoto{
       color: blue;
     }
+    .screensizealert::after{
+      content: "more than 1500px.";
+      color: blue;
+    }
   }
-
+  .divtitle:hover {
+    border: 7px dotted orange;
+  }
+ul li{
+    align: center;
+  }
+  ul > ul {
+    color: darkred;
+  }
 #divlist{
   margin-left: 10%;
   margin-right: 10%;
@@ -30,6 +50,12 @@
     border-collapse: collapse;
     width: 50%;
     margin-left: 20%;
+}
+ul ul ul > li{
+  color:green;
+}
+ul + ul ol li{
+  color: Purple;
 }
 th, td {
     padding: 5px;

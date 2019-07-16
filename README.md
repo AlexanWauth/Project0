@@ -21,3 +21,5 @@ grid.scss
 
 this was used to define the grid characteristics of class imgtab and famdragdiv (which uses nesting) to ensure that the photos fit within the cells created using bootstrap.
 %button was created to define the properties of the table of contents while the ids ToC1, ToC2, ToC3, and ToC4 to show the use of inheritance.
+
+I have added several new selectors to meet the requirement of at least 5 and added a bootstrap alert which displays the screensizealert.
